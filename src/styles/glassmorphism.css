@@ -1,0 +1,180 @@
+/* Glassmorphism Effects */
+.glass-card {
+  background: linear-gradient(145deg, rgba(26, 26, 26, 0.9) 0%, rgba(17, 17, 17, 0.9) 100%);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 
+    0 25px 50px -12px rgba(0, 0, 0, 0.8),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.glass-input {
+  background: rgba(34, 34, 34, 0.8);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.glass-input:focus {
+  background: rgba(34, 34, 34, 0.9);
+  border-color: rgba(0, 255, 136, 0.5);
+  box-shadow: 
+    0 0 20px rgba(0, 255, 136, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.glass-button {
+  background: linear-gradient(135deg, rgba(0, 255, 136, 0.1) 0%, rgba(139, 92, 246, 0.1) 100%);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(0, 255, 136, 0.3);
+  transition: all 0.3s ease;
+}
+
+.glass-button:hover {
+  background: linear-gradient(135deg, rgba(0, 255, 136, 0.2) 0%, rgba(139, 92, 246, 0.2) 100%);
+  border-color: rgba(0, 255, 136, 0.5);
+  box-shadow: 0 10px 30px rgba(0, 255, 136, 0.2);
+}
+
+.glass-modal {
+  background: linear-gradient(145deg, rgba(10, 10, 10, 0.95) 0%, rgba(26, 26, 26, 0.95) 100%);
+  backdrop-filter: blur(30px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 
+    0 35px 60px -12px rgba(0, 0, 0, 0.9),
+    0 0 50px rgba(0, 255, 136, 0.1);
+}
+
+/* Frosted glass effect */
+.frosted-glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Translucent panels */
+.translucent-panel {
+  background: rgba(26, 26, 26, 0.7);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Glass navigation */
+.glass-nav {
+  background: rgba(10, 10, 10, 0.8);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Glass sidebar */
+.glass-sidebar {
+  background: linear-gradient(180deg, rgba(26, 26, 26, 0.9) 0%, rgba(17, 17, 17, 0.9) 100%);
+  backdrop-filter: blur(25px);
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Glass tooltip */
+.glass-tooltip {
+  background: rgba(26, 26, 26, 0.95);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+/* Glass notification */
+.glass-notification {
+  background: linear-gradient(145deg, rgba(26, 26, 26, 0.9) 0%, rgba(17, 17, 17, 0.9) 100%);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(0, 255, 136, 0.3);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
+}
+
+/* Glass progress bar */
+.glass-progress {
+  background: rgba(34, 34, 34, 0.8);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+}
+
+.glass-progress-fill {
+  background: linear-gradient(90deg, #00ff88, #8b5cf6);
+  backdrop-filter: blur(5px);
+  transition: width 0.3s ease;
+}
+
+/* Glass dropdown */
+.glass-dropdown {
+  background: rgba(26, 26, 26, 0.95);
+  backdrop-filter: blur(25px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7);
+}
+
+/* Glass form group */
+.glass-form-group {
+  background: rgba(34, 34, 34, 0.6);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 16px;
+}
+
+/* Glass status indicator */
+.glass-status {
+  background: rgba(0, 255, 136, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 255, 136, 0.3);
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+}
+
+/* Glass loading skeleton */
+.glass-skeleton {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.1) 100%);
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+/* Responsive glassmorphism */
+@media (max-width: 768px) {
+  .glass-card {
+    backdrop-filter: blur(15px);
+  }
+  
+  .glass-modal {
+    backdrop-filter: blur(20px);
+  }
+  
+  .glass-nav {
+    backdrop-filter: blur(15px);
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .glass-card {
+    border: 2px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  .glass-input {
+    border: 2px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .glass-button {
+    border: 2px solid rgba(0, 255, 136, 0.5);
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  .glass-skeleton {
+    animation: none;
+  }
+}
