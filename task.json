@@ -1,0 +1,257 @@
+{
+  "task": "Create a modern dark-themed Stripe-like payment gateway demo with premium black aesthetics",
+  "requirements": {
+    "framework": "React with TypeScript",
+    "styling": "Tailwind CSS + custom dark theme",
+    "animations": "Framer Motion + Lottie",
+    "theme": "Premium dark/black modern design",
+    "features": [
+      "Glassmorphism effects with dark backgrounds",
+      "Neon accent animations and glows",
+      "Smooth gradient transitions",
+      "Premium card hover effects",
+      "Particle background animations",
+      "Modern typography with high contrast",
+      "Sleek loading animations",
+      "Cyberpunk-inspired success states",
+      "Minimalist dark UI patterns"
+    ]
+  },
+  "visual_design": {
+    "color_palette": {
+      "background": {
+        "primary": "#0a0a0a",
+        "secondary": "#111111", 
+        "card": "#1a1a1a",
+        "elevated": "#222222"
+      },
+      "accents": {
+        "primary": "#00ff88",
+        "secondary": "#8b5cf6",
+        "success": "#00d924",
+        "error": "#ff2d55",
+        "warning": "#ff9f0a",
+        "info": "#007aff"
+      },
+      "text": {
+        "primary": "#ffffff",
+        "secondary": "#a1a1aa",
+        "muted": "#71717a",
+        "inverse": "#000000"
+      },
+      "borders": {
+        "default": "#2a2a2a",
+        "focus": "#00ff88",
+        "error": "#ff2d55"
+      }
+    },
+    "gradients": {
+      "primary": "linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%)",
+      "card": "linear-gradient(145deg, #1a1a1a 0%, #111111 100%)",
+      "button": "linear-gradient(135deg, #00ff88 0%, #00cc6a 100%)",
+      "glow": "radial-gradient(circle, rgba(0,255,136,0.1) 0%, transparent 70%)"
+    },
+    "glassmorphism": {
+      "background": "rgba(26, 26, 26, 0.8)",
+      "backdrop_filter": "blur(20px)",
+      "border": "1px solid rgba(255, 255, 255, 0.1)"
+    },
+    "shadows": {
+      "card": "0 25px 50px -12px rgba(0, 0, 0, 0.8)",
+      "elevated": "0 35px 60px -12px rgba(0, 0, 0, 0.9)",
+      "glow": "0 0 30px rgba(0, 255, 136, 0.3)",
+      "inner": "inset 0 1px 0 rgba(255, 255, 255, 0.1)"
+    }
+  },
+  "components_to_create": [
+    {
+      "name": "DarkPaymentDemo",
+      "type": "main container",
+      "styling": {
+        "background": "Animated gradient mesh background",
+        "backdrop": "Subtle particle animation overlay",
+        "container": "Glassmorphism card with glowing border"
+      },
+      "animations": [
+        "Smooth fade-in with scale transform",
+        "Background gradient animation loop",
+        "Floating particle effects"
+      ]
+    },
+    {
+      "name": "ModernCardForm",
+      "type": "payment form",
+      "styling": {
+        "inputs": "Dark with neon focus states",
+        "placeholders": "Animated text reveals",
+        "validation": "Glowing success/error indicators"
+      },
+      "features": [
+        "Cyberpunk-style card number formatting",
+        "Holographic card preview with 3D tilt",
+        "Neon typing cursor animation",
+        "Matrix-style character reveals",
+        "Glowing validation checkmarks"
+      ]
+    },
+    {
+      "name": "PremiumPaymentButton",
+      "type": "submit button",
+      "styling": {
+        "base": "Gradient background with inner glow",
+        "hover": "Expanded glow effect",
+        "active": "Compressed with ripple"
+      },
+      "animations": [
+        "Magnetic hover effect",
+        "Loading with neon progress ring",
+        "Success with expanding circle",
+        "Pulse breathing when idle"
+      ]
+    },
+    {
+      "name": "CyberSuccessModal",
+      "type": "completion overlay",
+      "styling": {
+        "backdrop": "Dark blur with particle overlay",
+        "modal": "Glassmorphism with animated border",
+        "content": "Holographic success indicators"
+      },
+      "animations": [
+        "Digital rain effect background",
+        "Checkmark trace animation with glow",
+        "Expanding success rings",
+        "Floating geometric particles"
+      ]
+    },
+    {
+      "name": "SecurityBadges",
+      "type": "trust indicators",
+      "styling": {
+        "badges": "Dark with subtle neon outlines",
+        "icons": "Monochrome with accent highlights"
+      },
+      "animations": [
+        "Scanning line effects",
+        "Pulsing security indicators",
+        "Holographic shield animations"
+      ]
+    }
+  ],
+  "modern_effects": {
+    "micro_animations": [
+      "Magnetic button attraction on hover",
+      "Smooth elastic transitions",
+      "Liquid morphing between states",
+      "Particle trail on cursor movement",
+      "Subtle screen scan lines",
+      "Floating orb backgrounds"
+    ],
+    "advanced_interactions": [
+      "Tilt cards on mouse movement",
+      "Parallax background layers",
+      "Interactive particle systems",
+      "Smooth state morphing",
+      "Gesture-based animations",
+      "Voice-reactive visual feedback"
+    ],
+    "premium_touches": [
+      "Custom scrollbars with glow",
+      "Animated noise textures",
+      "Dynamic lighting effects",
+      "Responsive ambient sounds",
+      "Haptic feedback simulation",
+      "AI-powered micro-adjustments"
+    ]
+  },
+  "typography": {
+    "font_family": "Inter, SF Pro Display, system-ui",
+    "font_weights": {
+      "light": 300,
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700
+    },
+    "effects": [
+      "Subtle text glow on focus",
+      "Character-by-character reveals",
+      "Smooth font weight transitions",
+      "Dynamic letter spacing"
+    ]
+  },
+  "interaction_states": {
+    "idle": {
+      "description": "Breathing glow animation",
+      "background": "Subtle gradient shift",
+      "elements": "Gentle floating motion"
+    },
+    "hover": {
+      "description": "Magnetic attraction effects",
+      "glow": "Expanded neon halos",
+      "transform": "Smooth scale and translate"
+    },
+    "active": {
+      "description": "Compressed with energy release",
+      "particles": "Burst effects from interaction point",
+      "feedback": "Haptic-style visual response"
+    },
+    "loading": {
+      "description": "Multi-layer progress animations",
+      "effects": "Scanning beams and particle streams",
+      "transitions": "Morphing geometry"
+    },
+    "success": {
+      "description": "Celebration with premium effects",
+      "particles": "Golden/green energy bursts",
+      "transitions": "Holographic reveals"
+    },
+    "error": {
+      "description": "Glitch-style error indicators",
+      "effects": "Red scanning alerts",
+      "recovery": "Smooth error state cleanup"
+    }
+  },
+  "technical_specifications": {
+    "performance": {
+      "target_fps": 60,
+      "gpu_acceleration": true,
+      "lazy_loading": "Progressive enhancement",
+      "memory_optimization": "Efficient particle systems"
+    },
+    "responsive_design": {
+      "mobile": "Simplified animations, touch-optimized",
+      "tablet": "Balanced effects and performance", 
+      "desktop": "Full visual experience with all effects"
+    },
+    "accessibility": {
+      "reduced_motion": "Respectful of user preferences",
+      "high_contrast": "Enhanced for low vision users",
+      "screen_readers": "Full semantic markup support"
+    }
+  },
+  "code_structure": {
+    "theme_files": [
+      "styles/darkTheme.css",
+      "styles/glassmorphism.css",
+      "styles/neonEffects.css",
+      "animations/premiumTransitions.ts"
+    ],
+    "component_files": [
+      "components/DarkPaymentDemo.tsx",
+      "components/ModernCardForm.tsx",
+      "components/PremiumPaymentButton.tsx",
+      "components/CyberSuccessModal.tsx",
+      "components/ParticleBackground.tsx",
+      "hooks/useModernAnimations.ts"
+    ]
+  },
+  "demo_configuration": {
+    "ambient_effects": true,
+    "particle_density": "medium",
+    "animation_intensity": "high",
+    "sound_effects": false,
+    "haptic_feedback": true
+  },
+  "instructions": "Create a cutting-edge dark-themed payment demo that feels like a premium fintech app from 2025. Use modern web technologies to create smooth, performant animations. The design should feel sophisticated, trustworthy, and visually striking. Include all the latest UI trends like glassmorphism, subtle particle effects, and smooth micro-interactions. Make it feel like the future of payment interfaces."
+}
